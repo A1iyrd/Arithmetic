@@ -19,6 +19,7 @@ package leetcode;
 //n%3==0时 全为3
 //考虑特殊情况n==2和n==3的时候
 //写一个快速幂加快指数计算的速度
+
 public class Leetcode343 {
     public static void main(String[] args) {
         System.out.println(integerBreak(3));
