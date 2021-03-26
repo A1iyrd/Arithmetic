@@ -22,6 +22,7 @@ package leetcode;
 //一开始start值找到A，往后找，只要找到与A不同，k值减1，直到k小于0时，
 //用MAX函数比较result和end到start的距离，需考虑k还没减完的情况
 //用tk标记第一个不同的位置，start=tk，end=start，继续往后找。直到start>=字符串长度
+
 public class Leetcode424 {
     public static void main(String[] args) {
         String s="ABBBAABAABBA";
