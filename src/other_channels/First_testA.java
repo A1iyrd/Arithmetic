@@ -1,5 +1,9 @@
 package other_channels;
+// 有一个长阶梯，若每步上2阶，最后剩1阶；
+// 若每步上3阶，最后剩2阶；若每步上5阶，最后剩4阶；
+// 若每步上6阶，最后剩5阶；只有每步上7阶，最后刚好一阶也不剩。则台阶最少为多少阶？
 
+//此题不再解释
 public class First_testA {
     public static void main(String[] args) {
         int i=0;
