@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Leetcode392;
 // 392.判断子序列
 // 给定字符串 s 和 t ，判断 s 是否为 t 的子序列。
 // 字符串的一个子序列是原始字符串删除一些（也可以不删除）

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Leetcode424;
 //424.替换后的最长重复字符
 // 给你一个仅由大写英文字母组成的字符串，
 // 你可以将任意位置上的字符替换成另外的字符，总共可最多替换 k 次。

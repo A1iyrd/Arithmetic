@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Leetcode990;
 //990.等式方程的可满足性
 // 给定一个由表示变量之间关系的字符串方程组成的数组，
 // 每个字符串方程 equations[i] 的长度为 4，
