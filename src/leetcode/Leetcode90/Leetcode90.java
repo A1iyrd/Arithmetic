@@ -11,13 +11,39 @@ public class Leetcode90 {
     }
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list=new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
         Arrays.sort(nums);
         int len=nums.length;
-        List<Integer> integerList = new ArrayList<>();
-        String[] DP=new String[(int)Math.pow(2,len)];
-        for (int i=1;i<DP.length;i++){
-            DP[i]=nums[0]+"";
+
+        int[] id=new int[len];
+        for (int i=0;i<len;i++){
+            id[i]=i;
         }
+        list.add(null);
+        for (int i=0;i<len;i++){
+            int t=1<<i;
+            integerList.clear();
+            while ( t < (2<<i) ) {
+                for (int j=0;j<(1<<i);j++){
+                    integerList.add(nums[i]);
+//                    if (dp[t]==(dp[j])){
+//                        dp[t]=null;
+//                        break;
+//                    }
+
+                    if (t==1) {
+                        list.add(integerList);
+                        break;
+                    }
+                    if (integerList.get(0).equals(list.get(j))){
+//                        list.remove(list.size()-1);
+                        break;
+                    }list.add(integerList);
+                }
+                t++;
+            }
+        }
+
 //        for (int i=0;i<nums.length;i++){
 //            List<Integer> integerList = new ArrayList<>();
 //            for (int j=nums.length-i-1;j<nums.length;j++) {
@@ -25,7 +51,6 @@ public class Leetcode90 {
 //            }
 //            list.add(integerList);
 //        }
-        DFS(list,nums,0);
         return list;
     }
     public static void DFS(List list,int[] nums,int i){
