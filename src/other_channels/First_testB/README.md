@@ -26,6 +26,6 @@
 
 #### 数学推导
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}&space;\left&space;|&space;\vec{AB}&space;\right&space;|&space;\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|\textsl{sin}\angle&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}&space;\left&space;|&space;\vec{AB}&space;\right&space;|&space;\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|\textsl{sin}\angle&space;\alpha" title="\textsl{S}\triangle \textsl{abc}= \frac{1}{2} \left | \vec{AB} \right | \cdot \left | \vec{AC} \right |\textsl{sin}\angle \alpha" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}&space;\left&space;|&space;\vec{AB}&space;\right&space;|&space;\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|\textsl{sin}&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}&space;\left&space;|&space;\vec{AB}&space;\right&space;|&space;\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|\textsl{sin}&space;\alpha" title="\textsl{S}\triangle \textsl{abc}= \frac{1}{2} \left | \vec{AB} \right | \cdot \left | \vec{AC} \right |\textsl{sin} \alpha" /></a>
 
 
