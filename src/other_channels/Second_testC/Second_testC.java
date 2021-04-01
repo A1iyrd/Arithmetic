@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.Second_testC;
 
 //思路：dfs求全排，
 //去重，线排 -> 圆排 -> 项链排

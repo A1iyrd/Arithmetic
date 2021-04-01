@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.Second_testD;
 
 //思路：吃两天：每天预先吃2颗，C 1 10 =10
 

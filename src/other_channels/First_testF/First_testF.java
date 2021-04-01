@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.First_testF;
 
 import java.util.Scanner;
 

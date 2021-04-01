@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.Second_testI;
 
 //牛顿法
 //推导

@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.First_testD;
 
 import java.io.BufferedInputStream;
 import java.util.Scanner;

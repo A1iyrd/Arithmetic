@@ -1,4 +1,4 @@
-package other_channels;
+package other_channels.Second_testA;
 
 //有一类自然数，从左往右的第三个数字开始，每个数字都恰好是它左边两个数字之和，
 //直至不能再写为止，如257,1459等，这类数一共有几个。
@@ -15,14 +15,15 @@ public class Second_testA {
         int result=0;
         for (int i=1;i<10;i++){
             for (int j=0;j<9;j++){
-                result=DFS(i,j);
+                result+=DFS(i,j);
             }
         }
+        System.out.println(result);
     }
     public static int DFS(int i,int j){
-        int result=0;
+        int result=1;
         if (i+j>9)
-            return result;
+            return 0;
         DFS(j,i+j);
         return result;
     }
