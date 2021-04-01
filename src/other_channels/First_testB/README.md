@@ -20,8 +20,9 @@
 >
 >`∴a(0,0),b(x1,y1),c(x2,y2)  `
 >
->`用向量表示三角形面积，最后带入坐标，得到公式  `
->
->`S△abc=0.5*Math.abs(x2*y1-x1*y2)`
+>`用向量表示三角形面积，最后带入坐标，得到公式 `
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\left&space;|&space;\textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right&space;|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\left&space;|&space;\textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right&space;|" title="\textsl{S}\triangle \textsl{abc}= \frac{1}{2}\left | \textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right |" /></a>
 
 #### 数学推导
+
