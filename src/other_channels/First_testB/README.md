@@ -35,6 +35,8 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\therefore&space;\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\sqrt{\left&space;|&space;\vec{AB}&space;\right&space;|^{2}\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|^{2}-\vec{AB}^{2}\cdot&space;\vec{AC}^{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\therefore&space;\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\sqrt{\left&space;|&space;\vec{AB}&space;\right&space;|^{2}\cdot&space;\left&space;|&space;\vec{AC}&space;\right&space;|^{2}-\vec{AB}^{2}\cdot&space;\vec{AC}^{2}}" title="\therefore \textsl{S}\triangle \textsl{abc}= \frac{1}{2}\sqrt{\left | \vec{AB} \right |^{2}\cdot \left | \vec{AC} \right |^{2}-\vec{AB}^{2}\cdot \vec{AC}^{2}}" /></a>
 
-<font>带入坐标点 a(0,0) , b(x1,y1) , c(x2,y2)</font>
+<font>带入坐标点 a (0,0) , b (x1,y1) , c (x2,y2)</font>
+
+得到:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\left&space;|&space;\textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right&space;|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textsl{S}\triangle&space;\textsl{abc}=&space;\frac{1}{2}\left&space;|&space;\textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right&space;|" title="\textsl{S}\triangle \textsl{abc}= \frac{1}{2}\left | \textsl{x}_{1}\textsl{y}_{2}-\textsl{x}_{2}\textsl{y}_{1}\right |" /></a>
