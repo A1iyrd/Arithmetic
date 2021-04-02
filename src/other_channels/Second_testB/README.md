@@ -10,4 +10,4 @@
 
 思路3： 蒙特卡罗
 
-![](https://github.com/A1iyrd/Arithmetic/blob/master/src/other_channels/Second_testB/save.png)
+![](../Second_testB/Monte_Carlo_method.png)
