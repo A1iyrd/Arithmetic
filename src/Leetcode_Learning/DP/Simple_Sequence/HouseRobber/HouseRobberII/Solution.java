@@ -5,29 +5,31 @@ public class Solution {
         int len=nums.length;
         if (len==1)
             return nums[0];
-        int[] dp_1=new int[len];
-        int[] dp_Not1=new int[len];
-        dp_1[0]=nums[0];
-        dp_Not1[0]=dp_Not1[0];
-        int result=Math.max(dp_1[0],dp_Not1[0]);
-        if (len==3){
-            result=Math.max(result,nums[2]);
-        }
-        for (int i=3;i<len;i++){
-            int max_sub2=0;
-            int max_sub3=0;
-            if (i==len-1){
-                dp_Not1[i]=nums[i]+Math.max(dp_Not1[i-2],dp_Not1[i-3]);
-                result=Math.max(dp_Not1[i],result);
+        int[] dp_From1=new int[len];
+        int[] dp_FromN=new int[len];
+        dp_From1[0]=nums[0];
+        dp_FromN[len-1]=nums[len-1];
+        int result=Math.max(dp_From1[0],dp_FromN[len-1]);
+
+        for (int i=1,j=len-2;i<len-1;i++,j--){
+            if (i==1&&j==1){
+                result=Math.max(result,nums[i]);
+                continue;
             }
-            if (dp_1[i-2]+dp_1[i-3]==Math.max(dp_1[i-2]+dp_1[i-3],dp_Not1[i-2]+dp_Not1[i-3])){
-                dp_1[i]=nums[i]+dp_1[i-2]+dp_1[i-3];
-                result=Math.max(dp_1[i],result);
+            if (i==1){
+                dp_From1[i]=nums[i];
+                dp_FromN[j]=nums[j];
+                continue;
             }
-            else {
-                dp_Not1[i] = nums[i] + dp_1[i - 2] + dp_1[i - 3];
-                result=Math.max(dp_Not1[i],result);
+            if (i==2){
+                dp_From1[i]=nums[i]+dp_From1[0];
+                dp_FromN[j]=nums[j]+dp_FromN[len-1];
+                result=Math.max(Math.max(dp_From1[i],dp_FromN[j]),result);
+                continue;
             }
+            dp_From1[i]=nums[i]+Math.max(dp_From1[i-2],dp_From1[i-3]);
+            dp_FromN[j]=nums[j]+Math.max(dp_FromN[j+2],dp_FromN[j+3]);
+            result=Math.max(Math.max(dp_From1[i],dp_FromN[j]),result);
         }
         return result;
     }
