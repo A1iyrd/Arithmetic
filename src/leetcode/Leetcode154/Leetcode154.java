@@ -7,10 +7,13 @@ public class Leetcode154 {
         int right = len - 1;
         while (left!=right&&nums[left] >= nums[right]) {
             int mid = (left + right) / 2;
-            if (nums[mid]>nums[left]){
+            if(nums[left]==nums[right]){
+                left++;
+            }
+            else if (nums[mid]>=nums[left]){
                 left=mid+1;
             }
-            else {
+            else if(nums[right]>=nums[mid]){
                 right=mid;
             }
         }
